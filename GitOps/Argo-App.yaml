@@ -14,7 +14,7 @@ spec:
       helm:
         valueFiles:
           - $values/GitOps/values.yaml
-    - repoURL: "https://github.com/RoeePeled/dotnet-app.git"
+    - repoURL: "https://github.com/roeepeled/dotnet-app.git"
       targetRevision: main
       ref: values
   syncPolicy:
